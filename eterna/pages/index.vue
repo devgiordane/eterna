@@ -5,14 +5,19 @@
             <div class="hero-content text-center">
                 <div class="max-w-md text-white">
                     <h1 class="text-5xl font-bold">Clinica Eterna Pro</h1>
-                    <p class="py-6"> A Clínica Eterna está localizada no Ed. Lagoa Center, em Natal (RN) e oferece
+                    <p class="py-6"> A Clínica Eterna está localizada no Manhattan Business Office, em Natal, e oferece
                         diversos tratamentos especializados em Fisioterapia dermatofuncional, estética, botox, laser,
                         harmonização facial, estética íntima, terapia manual e osteopatia, com atendimento
-                        fisioterapêutico individualizado. </p> <a href="https://maps.app.goo.gl/nURTXJkJdCCDPbjj6"
+                        fisioterapêutico individualizado. </p> <a href="https://maps.app.goo.gl/N2R9NndRpdJFTLvn9"
                         target="_blank"
                         class="btn btn-warning text-white bg-orange-300 border-none text-2xl font-thin w-full">
                         <MapPinned /> Como Chegar
                     </a>
+                    <br>
+                    <a href="https://wa.me/5584991922549" target="_blank"
+                        class="btn btn-warning btn-link text-white w-full">
+                        Fale
+                        Conosco</a>
                 </div>
             </div>
         </div>
@@ -77,11 +82,11 @@
 
                     <div class="hero-content text-center">
                         <div class="max-w-md">
-                            <h1 class="text-4xl py-10">Conheça nossa equipe
+                            <h1 class="text-4xl py-10 sm:text-2xl">Conheça nossa equipe
                             </h1>
-                            <img src="@/assets/patricia.jpg" class="rounded-full border-white border-4 h-96  w-auto"
-                                alt="">
-                            <h3>Dr. Patrícia Froes</h3>
+                            <img src="@/assets/patricia.jpg"
+                                class="rounded-full border-white border-4 h-72 mx-auto  w-72" alt="">
+                            <h3 class="text-3xl font-bold">Dr. Patrícia Froes</h3>
                             <p class="py-6"> Patricia Froes é a fundadora e CEO da Clínica Eterna, com mais de 30 anos
                                 de carreira dedicados ao estudos científicos, traz consigo experiência e embasamento
                                 cientifico para fazer da Clínica Eterna referencia em tratamento de qualidade
@@ -91,17 +96,129 @@
                                 <br><br>
                                 Confira seu currículo completo abaixo.
 
-                            </p> <a href="https://maps.app.goo.gl/nURTXJkJdCCDPbjj6" target="_blank"
-                                class="btn btn-warning text-white bg-orange-300 border-none text-2xl font-thin w-full">
-                                <School /> Curriculum
-                            </a>
+                            </p>
+
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button
+                                class="btn btn-warning text-white bg-orange-400 border-none text-2xl font-thin w-full"
+                                onclick="my_modal_2.showModal()">Curriculum</button>
+                            <dialog id="my_modal_2" class="modal">
+                                <div class="modal-box">
+                                    <h3 class="text-lg font-bold">Curriculum</h3>
+                                    <div class="py-5"></div>
+                                    <ul class="flex flex-col text-sm">
+                                        <li class="flex text-left">
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">PÓS-DOUTORADO – University of
+                                                Birmingham, UK</div>
+                                            <hr />
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">DOUTORA em Ciencias da Saúde, UFRN.
+                                            </div>
+                                            <hr />
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">MESTRE em Ciencias da Saúde, UFRN.
+                                            </div>
+                                            <hr />
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">ESPECIALISTA em Fisioterapia
+                                                Dermatofuncional pela Associação Brasileira de Fisioterapia
+                                                Dermatofuncional – ABRAFIDEF e COFFITO.</div>
+                                            <hr />
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">COORDENADORA da Pós-graduação
+                                                (Especialização) Internacional em Fisioterapia Dermatofuncional –
+                                                Faculdade Inspirar, São Paulo.</div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">COORDENADORA da Especialização em
+                                                Fisioterapia Dermatofuncional em CIPECS – Centro Internacional de Post
+                                                Grados y Especialidades em Ciencias de la Salud, Mexico.</div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">DOCENTE de especialização, mestrado e
+                                                cursos livres em 18 países.</div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">CEO do International Research Group.
+                                            </div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">AUTORA de mais de 120 artigos
+                                                publicados em Fisioterapia dermatofuncional e vários capítulos de
+                                                livros.</div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">AUTORA do livro Tratado de
+                                                Fisioterapia Dermatofuncional, Editora Amolca, 1ed. espanhol.</div>
+                                        </li>
+                                        <li class="flex text-left">
+                                            <hr />
+                                            <div class="timeline-middle">
+                                                <Dot />
+                                            </div>
+                                            <div class="">AUTORA do livro Fisioterapia
+                                                Dermatofunzionale, Editora Medical Books, 1ed. Italiano.</div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="modal-action pb-4">
+                                        <form method="dialog">
+                                            <!-- if there is a button, it will close the modal -->
+                                            <button class="btn btn-warning">Fechar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
                         </div>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-3 grid-cols-1 gap-2  py-10">
                     <div class="card bg-base-100 shadow-xl">
                         <figure>
-                            <img src="@/assets/marcel.jpg" />
+                            <img src="@/assets/marcel.png" />
                         </figure>
                         <div class="card-body p-2 pb-10">
                             <h2 class="card-title">Rodrigo Marcel Valentim
@@ -149,8 +266,7 @@
                     </div>
                     <div class="card bg-base-100 shadow-xl">
                         <figure>
-                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                alt="Shoes" />
+                            <img src="@/assets/laryssa.png" alt="Shoes" />
                         </figure>
                         <div class="card-body p-2 pb-10">
                             <h2 class="card-title">Laryssa Vasconcelos
@@ -188,7 +304,7 @@
                     </div>
                     <div class="card bg-base-100 shadow-xl">
                         <figure>
-                            <img src="@/assets/marcel.jpg" />
+                            <img src="@/assets/ligia.png" />
                         </figure>
                         <div class="card-body p-2 pb-10">
                             <h2 class="card-title">Lígia Revorêdo
@@ -230,6 +346,59 @@
                 </div>
             </div>
         </div>
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Onde Estamos</h1>
+                    <p class="py-6">
+                        <b>Manhattan Business Office, sala 1005 </b> <br>
+                        Av. Campos Sales, 901 - Petrópolis, Natal - RN, 59020-300
+                    </p>
+                    <a href="https://maps.app.goo.gl/N2R9NndRpdJFTLvn9" class="btn btn-secondary">Abrir no maps</a>
+                    <br>
+                    <div class="pt-10">
+
+                        <iframe class="rounded-lg shadow-md"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1984.7187565874317!2d-35.2028241!3d-5.7937107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b301ba5fccda19%3A0x412bdddeee351f97!2sManhattan%20Business%20Office!5e0!3m2!1spt-BR!2sbr!4v1734107331073!5m2!1spt-BR!2sbr"
+                            width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer bg-neutral text-neutral-content p-10 pb-28">
+            <aside>
+                <img src="@/assets/logo.png" class="w-44 pb-3" alt="">
+                <p>
+                    Clinica Eterna Pro
+                    <br />
+                    Manhattan Business Office, sala 1005 <br>
+                    Av. Campos Sales, 901 - Petrópolis, Natal - RN, 59020-300
+                    <br />
+                <div class="py-5">
+
+                    <a class="btn btn-outline btn-info " href="https://wa.me/5584991922549">+55 84 99192-2549</a>
+                </div>
+                </p>
+            </aside>
+            <nav>
+                <h6 class="footer-title">Social</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a href="https://instagram.com/clinicaeternapro" target="_blank">
+                        <img src="@/assets/insta.svg" class="w-10" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100063654485193" target="_blank">
+                        <img src="@/assets/face.svg" class="w-10" alt="">
+
+                    </a>
+                </div>
+            </nav>
+            <div class="divider"></div>
+            <div class="">
+                <p>Copyright © 2025 - Todos os direitos reservados</p>
+                <a href="https://pixellove.des.br/" class="text-blue-300">Feito com ❤️ por 🔗 Pixellove</a>
+            </div>
+        </footer>
     </div>
 </template>
 <script setup lang="ts">import { DiamondPlus, Dot, MapPinned, School } from 'lucide-vue-next';</script>
